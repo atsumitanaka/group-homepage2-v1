@@ -1701,12 +1701,15 @@ img {
   }
 
   .hero-overlay {
-    padding: 1rem 1rem 0.5rem;
+    padding: 1.5rem 1.5rem 5rem;
   }
 
   .hero-title {
     font-size: 1.5rem;
-    margin-bottom: 0.15rem;
+  }
+
+  .intro-heading {
+    font-size: 0.85rem;
   }
 
   .page-header {
