@@ -1804,8 +1804,12 @@ img {
     padding-top: calc(62px + 1.5rem);
   }
 
+  .section-header h2 {
+    font-size: 1rem;
+  }
+
   .intro-heading {
-    font-size: 0.85rem;
+    font-size: 0.82rem;
   }
 
   .intro-text p {
