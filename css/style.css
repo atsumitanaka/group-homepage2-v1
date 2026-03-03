@@ -1805,6 +1805,10 @@ img {
   }
 
   .intro-heading {
-    font-size: 0.92rem;
+    font-size: 0.78rem;
+  }
+
+  .intro-text p {
+    font-size: 0.78rem;
   }
 }
