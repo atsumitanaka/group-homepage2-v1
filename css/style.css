@@ -1507,6 +1507,10 @@ img {
     width: 90%;
   }
 
+  .intro-text p {
+    font-size: 0.82rem;
+  }
+
   /* Members */
   .top-member-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -1626,6 +1630,10 @@ img {
 
   .compact-member-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .intro-text p {
+    font-size: 0.78rem;
   }
 
   /* Waves — smaller on mobile */
