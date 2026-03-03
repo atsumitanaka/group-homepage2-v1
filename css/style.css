@@ -1805,10 +1805,14 @@ img {
   }
 
   .intro-heading {
-    font-size: 0.78rem;
+    font-size: 0.85rem;
   }
 
   .intro-text p {
+    font-size: 0.78rem !important;
+  }
+
+  .news-timeline-item .news-title {
     font-size: 0.78rem;
   }
 }
