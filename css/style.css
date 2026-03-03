@@ -1705,3 +1705,80 @@ img {
     padding-top: calc(90px + 2rem);
   }
 }
+
+/* Landscape phones (wide but short) */
+@media (max-height: 500px) and (orientation: landscape) {
+  .navbar {
+    height: auto;
+    padding: 0.25rem 0;
+  }
+
+  .navbar-brand {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .navbar-logos img {
+    height: 44px;
+    padding: 9px;
+  }
+
+  .navbar-brand-text {
+    font-size: 0.75rem;
+    margin-left: 0;
+  }
+
+  .nav-links {
+    top: 56px;
+  }
+
+  .hero {
+    margin-top: 56px;
+  }
+
+  .hero-image {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+  }
+
+  .hero-image > img {
+    object-fit: contain;
+    height: auto;
+  }
+
+  .hero-overlay {
+    padding: 1rem 2rem 2rem;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .section {
+    padding: 1rem 0 5rem;
+  }
+
+  .wave-divider svg,
+  .section .wave-divider-bottom svg {
+    height: 70px;
+  }
+
+  .top-member-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+  }
+
+  .top-member-leader .top-member-card {
+    width: calc(100% / 3 - 1.34rem);
+  }
+
+  .page-header {
+    padding-top: calc(56px + 1.5rem);
+  }
+
+  .intro-heading {
+    font-size: 0.9rem;
+  }
+}
