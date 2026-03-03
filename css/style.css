@@ -1710,31 +1710,57 @@ img {
 @media (max-height: 500px) and (orientation: landscape) {
   .navbar {
     height: auto;
-    padding: 0.25rem 0;
+    padding: 0.3rem 0;
+  }
+
+  .navbar-inner {
+    padding: 0 0.75rem;
+    width: 100%;
   }
 
   .navbar-brand {
-    flex-direction: row;
-    align-items: center;
-    gap: 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1rem;
+  }
+
+  .navbar-logos {
+    gap: 0.25rem;
   }
 
   .navbar-logos img {
-    height: 44px;
-    padding: 9px;
+    height: 36px;
+    padding: 7px;
   }
 
   .navbar-brand-text {
-    font-size: 0.75rem;
-    margin-left: 0;
+    font-size: 0.65rem;
+    margin-left: 7px;
+  }
+
+  .hamburger {
+    display: flex;
   }
 
   .nav-links {
-    top: 56px;
+    display: none;
+    position: fixed;
+    top: 62px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    gap: 0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.open {
+    display: flex;
   }
 
   .hero {
-    margin-top: 56px;
+    margin-top: 62px;
   }
 
   .hero-image {
@@ -1749,11 +1775,11 @@ img {
   }
 
   .hero-overlay {
-    padding: 1rem 2rem 2rem;
+    padding: 1rem 1.5rem 2rem;
   }
 
   .hero-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .section {
@@ -1775,7 +1801,7 @@ img {
   }
 
   .page-header {
-    padding-top: calc(56px + 1.5rem);
+    padding-top: calc(62px + 1.5rem);
   }
 
   .intro-heading {
