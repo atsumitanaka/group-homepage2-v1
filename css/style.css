@@ -1573,18 +1573,6 @@ img {
 }
 
 @media (max-width: 480px) {
-  .hero-title {
-    font-size: 1.75rem;
-  }
-
-  .hero-catchphrase p {
-    font-size: 0.85rem;
-  }
-
-  .hero-overlay {
-    padding: 1.5rem 1.5rem 5rem;
-  }
-
   .top-member-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
