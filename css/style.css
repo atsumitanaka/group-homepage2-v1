@@ -1537,7 +1537,38 @@ img {
   }
 
   .member-grid-2col {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+
+  .member-entry {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .member-photo {
+    width: 60px;
+    height: 80px;
+  }
+
+  .member-name {
+    font-size: 0.6rem;
+    white-space: nowrap;
+  }
+
+  .member-title-label {
+    font-size: 0.5rem;
+  }
+
+  .member-info .email,
+  .member-info .samurai-btn,
+  .member-info .personal-page-btn,
+  .member-info .research-title,
+  .member-info .keywords {
+    display: none;
   }
 
   .compact-member-grid {
@@ -1904,6 +1935,10 @@ img {
 
   .news-timeline-item .news-title {
     font-size: 0.78rem;
+  }
+
+  .member-grid-2col {
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .footer {
