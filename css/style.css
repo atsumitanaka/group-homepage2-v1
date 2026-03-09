@@ -118,6 +118,10 @@ img {
   padding: 8px;
 }
 
+.navbar-brand-text {
+  white-space: nowrap;
+}
+
 .navbar-brand-text span {
   color: #c83c2d;
   font-weight: 700;
@@ -1534,6 +1538,10 @@ img {
   }
 
   /* Navbar — shrink for tablet width */
+  .navbar-inner {
+    width: 95%;
+  }
+
   .navbar-brand {
     gap: 0.5rem;
     font-size: 0.8rem;
@@ -1551,6 +1559,14 @@ img {
   .navbar-logos img:last-child {
     height: 34px;
     padding: 6px;
+  }
+
+  .group-full {
+    display: none;
+  }
+
+  .group-short {
+    display: inline;
   }
 
   .nav-links {
@@ -1658,7 +1674,8 @@ img {
   }
 
   .hero-title {
-    font-size: 2.25rem;
+    font-size: clamp(1rem, 4.5vw, 2.25rem);
+    white-space: nowrap;
   }
 
   .hero-catchphrase p {
@@ -1939,11 +1956,6 @@ img {
 
   .hero-overlay {
     padding: 1.5rem calc(1rem + 12px) 3rem;
-  }
-
-  .hero-title {
-    font-size: clamp(1rem, 5vw, 1.5rem);
-    white-space: nowrap;
   }
 
   .intro-heading {
