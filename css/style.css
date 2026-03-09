@@ -123,6 +123,10 @@ img {
   font-weight: 700;
 }
 
+.group-short {
+  display: none;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -1988,6 +1992,14 @@ img {
     font-size: 0.65rem;
     margin-left: 0;
     line-height: 1.2;
+  }
+
+  .group-full {
+    display: none;
+  }
+
+  .group-short {
+    display: inline;
   }
 
   .hamburger {
